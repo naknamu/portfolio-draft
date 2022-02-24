@@ -9,7 +9,7 @@ body{
 .header{
     background-color: rgb(2, 28, 54);
     color: whitesmoke;
-    padding: 16px 64px;
+    padding: 16px 100px;
     display: flex;
     flex-direction: column;
     gap: 64px;
