@@ -79,6 +79,10 @@ button{
     color: #F9FAF8;
 }
 
+/* .header-button:focus{
+    background-color: #112a52;
+} */
+
 .container{
     display: flex;
     flex-direction: column;
