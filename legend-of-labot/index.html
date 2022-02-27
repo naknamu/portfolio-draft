@@ -6,6 +6,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Legend of Labot</title>
     <link rel="stylesheet" href="style.css">
+    <script src="myScript.js"></script>
 </head>
 <body>
     <div class="header">
@@ -14,7 +15,6 @@
             <ul>
                 <li><a href="https://store.steampowered.com/app/1753160/Legend_of_Labot_The_Golden_Pearl/">Steam</a></li>
                 <li><a href="https://naknamu.itch.io/the-golden-pearl">Itch</a></li>
-                <li><a href="https://www.reddit.com/user/naknamu/">Reddit</a> </li>
             </ul>
         </div>
         <div class="bottom-header">
@@ -23,7 +23,7 @@
                 <div class="sub-text">Legend of Labot: The Golden Pearl is an action roguelike 
                     2D Platformer with a cute main character and a relaxing nature-inspired tropical setting!
                 </div>
-                <button class="header-button">Buy now</button>
+                <button class="header-button" onclick="openSteamStore()">Buy now</button>
             </div>
             <div class="header-image">
                 <img class="hero-image" src="image/labot_header.jpg" alt="This is a placeholder for an image">
@@ -63,9 +63,9 @@
             <div class="signup-highlight">
                 <div class="signup-text">
                     <div class="signup-title">Call to action! It's time!</div>
-                    <div class="signup-subtext">Buy our product by clicking that button right over there!</div>
+                    <div class="signup-subtext">Buy the game by clicking that button right over there!</div>
                 </div>
-                <button class="signup-button">Buy now</button>
+                <button class="signup-button" onclick="openSteamStore()">Buy now</button>
             </div>
         </div>
     </div>
