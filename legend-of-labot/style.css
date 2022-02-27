@@ -80,12 +80,21 @@ button{
     transition-duration: 0.3s;
 }
 
-.header-button:hover, .signup-button:hover{
+.header-button:hover{
     background-color: whitesmoke;
     color: rgb(0, 0, 0);
 }
 
-.header-button:active, .signup-button:active{
+.header-button:activee{
+    background-color: #3882F6;
+}
+
+.signup-button:hover{
+    background-color: whitesmoke;
+    color: rgb(0, 0, 0);
+}
+
+.signup-button:active{
     background-color: #3882F6;
 }
 
