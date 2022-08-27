@@ -1,9 +1,17 @@
-body{
+/* body{
     font-family: sans-serif,'Courier New', Courier, monospace;
     margin: 0;
     height: 100vh;
     display: flex;
     flex-direction: column;
+} */
+
+body{
+    font-family: sans-serif,'Courier New', Courier, monospace;
+    margin: 0;
+    height: 100vh;
+    display: grid;
+    grid-template-rows: 300px 1fr 50px;
 }
 
 .header{
